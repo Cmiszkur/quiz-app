@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .toggle:checked + .dot {
+    @apply transform translate-x-full bg-green-300;
+  }
+}
